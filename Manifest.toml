@@ -2,7 +2,7 @@
 
 julia_version = "1.11.4"
 manifest_format = "2.0"
-project_hash = "ce61ad3e4be2c3124a328b71554b2728acbfb3d6"
+project_hash = "bb256c0c52a8c367e3320615195aefe8a32d8346"
 
 [[deps.AliasTables]]
 deps = ["PtrArrays", "Random"]
@@ -165,6 +165,10 @@ version = "0.7.0"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+version = "1.11.0"
+
+[[deps.Sockets]]
+uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
 version = "1.11.0"
 
 [[deps.SortingAlgorithms]]
