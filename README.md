@@ -20,6 +20,6 @@ add_route!(router, "GET", "/", () -> "Available routes: $(router.routes))"
 start_server(router; port=8000)
 ```
 
-Notice that is does not validate the payload. It will simply send whatever
+Notice that the payload is not validated. It will simply send whatever
 was in the body (provided the `Content-Type` is either `application/json`
-or `text/plain` to the handlers)
+or `text/plain`) to the handlers.
