@@ -14,7 +14,7 @@ greeting_handler(name) = "Hello there, $(name)!"
 
 router = Router()
 add_route!(router, "POST", "/sum", sum_handler)
-add_route!(router, "POST", "/sum", sum_handler)
+add_route!(router, "POST", "/greeting", greeting_handler)
 add_route!(router, "GET", "/", () -> "Available routes: $(router.routes))"
 
 start_server(router; port=8000)
